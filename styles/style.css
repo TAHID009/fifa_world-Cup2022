@@ -13,13 +13,14 @@ common & utilities css
 /* banner section css */
 .container{
     width: 1140px;
-    height: 646;
-    background-color: black;
+    /* height: 646; */
     margin: 18px auto;
-    border-radius: 30px;
+    
 }
 .banner_details{
     display: flex;
+    background-color: black;
+    border-radius: 30px;
 }
 .banner_title{
     color: white;
@@ -44,6 +45,70 @@ common & utilities css
     color: white;
 }
 /* banner section css end */
+/* matches css */
+
+.match_info{
+    display: flex;
+    padding-top: 80px;
+}
+.match_nav{
+    width: 240px;
+    height: 240px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10px; 
+    padding-left: 35px; 
+    margin: 0 12px;
+}
+.match_nav a{
+    text-decoration: none;
+}
+.btn-1, .btn-2, .btn-3{
+    padding: 10px 25px;
+    background-color: white;
+    margin-top: 20px;
+    display: block;
+    width: 152px;
+    height: 24px;
+    border-radius: 10px;
+    color: black;
+}
+.btn-3{
+    background-color: #DD0000;
+    color: aliceblue;
+    
+}
+.match_news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 820px;
+}
+.m_details img{
+    width: 272px;
+}
+.m-btn{
+    display: block;
+    margin: 20px 0;
+    border: 1px solid black;
+    font-size: 16px;
+    width: 78px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    color:black;
+    
+}
+.news_info{
+    display: flex;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.fa-solid{
+    margin-right: 24px;
+}
 
 
 /* footer css */
@@ -63,41 +128,16 @@ common & utilities css
 hr{
     border: 1px solid rgba(255, 255, 255, 0.1);
     width:1140px ;
-    margin: 30px auto;
-    
+    margin: 30px auto;    
 }
 
-/* matches css */
-
-.match_info{
-    display: flex;
-}
-.match_nav{
-    width: 270px;
-    height: 270px;
-    background-color: blueviolet;
-    text-align: center;
-    border-radius: 5px;
-    
-    
-}
-.btn-1{
-    padding: 10px 25px;
-    background-color: white;
-    margin-top: 20px;
-}
-/* footer css */
 .footer_item ul{
     display: flex;   
-    justify-content: center;
-
-    
+    justify-content: center;   
 }
 .footer_item ul li{
     list-style: none;
-
 }
-
 .footer_item a{
     text-decoration: none;
     margin-right: 30px;
