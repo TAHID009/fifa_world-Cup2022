@@ -66,9 +66,27 @@ hr{
     margin: 30px auto;
     
 }
-.footer_item{
+
+/* matches css */
+
+.match_info{
+    display: flex;
+}
+.match_nav{
+    width: 270px;
+    height: 270px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 5px;
+    
     
 }
+.btn-1{
+    padding: 10px 25px;
+    background-color: white;
+    margin-top: 20px;
+}
+/* footer css */
 .footer_item ul{
     display: flex;   
     justify-content: center;
