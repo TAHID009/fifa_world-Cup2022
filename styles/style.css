@@ -142,3 +142,133 @@ hr{
     text-decoration: none;
     margin-right: 30px;
 }
+
+/* mobile responsive css code */
+
+
+/* small divice code */
+
+@media screen and (max-width:576px){
+  .container{
+    width: 260px;
+    text-align: center;
+  }
+  /* banner responsive */
+  .banner_details{
+    display: block;
+    
+  }
+  .banner_title{
+    margin:34px;
+  }
+  .banner_title h1{
+    font-size: 18px;
+    padding-top: 24px;
+
+  }
+  .banner_title p{
+    font-size: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+  .banner_title a{
+    padding:8px 12px;
+    font-size: 12px;
+  }   
+  .b-p1{
+    height: 50vh;
+    width: 100%;
+    margin-top: -20px;
+  } 
+
+  /* matches news responsive */
+  .match_info{
+    display: block;
+    padding-top: 10px;
+  }
+  .match_nav{
+    width: 260px;
+    height: 140px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;   
+}
+
+  .btn-1, .btn-2, .btn-3{
+    padding: 5px 10px;
+    margin-top: 14px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 154, 154);  
+}
+
+  .match_news{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5px;
+    width: 130px;
+    margin-top: 18px;
+    margin-left: -20px;
+  }
+  .m_details{
+    text-align: left;
+  }
+  .m_details img{
+    width: 310px;
+}
+.m-btn{
+    display: block;
+    margin: 8px 0;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 38px;
+    height: 15px;
+    line-height: 15px;
+}
+.m_details h4{
+    font-size: 12px;
+}
+.news_info{
+    font-size: 8px;
+    margin: 10px 0;
+
+}
+
+/* footer resposive */
+
+.footer_details{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    padding-bottom: 30px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600px;
+    padding-top: 60px;
+    
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width:334px;
+    margin: 30px auto;    
+}
+
+.footer_item ul{
+    display: block; 
+        
+}
+.footer_item ul li{
+    margin-bottom: 34px;
+  
+}
+.footer_item a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+}
