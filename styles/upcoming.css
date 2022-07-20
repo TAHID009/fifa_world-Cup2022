@@ -52,28 +52,28 @@ common & utilities css
     padding-top: 80px;
 }
 .match_nav{
-    width: 240px;
+    width: 210px;
     height: 240px;
     background-color: blueviolet;
     text-align: center;
     border-radius: 10px; 
-    padding-left: 35px; 
     margin: 0 12px;
+    padding-left: 40px;
 }
 .match_nav a{
     text-decoration: none;
 }
 .btn-1, .btn-2, .btn-3{
-    padding: 10px 25px;
+    padding: 12px 25px;
     background-color: white;
     margin-top: 20px;
     display: block;
-    width: 152px;
+    width: 122px;
     height: 24px;
     border-radius: 10px;
     color: black;
 }
-.btn-3{
+.btn-1{
     background-color: #DD0000;
     color: aliceblue;
     
@@ -81,11 +81,29 @@ common & utilities css
 .match_news{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 35px;
     width: 820px;
 }
-.m_details img{
-    width: 272px;
+.m_details{
+    text-align: center;
+}
+.m_details h4{
+    font-size: 24px;
+}
+.flag{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+
+
+}
+.flag img{
+    width: 95px;
+    
+}
+.flag p{
+    margin: 30px 24px;
+    font-size: 24px;
 }
 .m-btn{
     display: block;
@@ -102,9 +120,9 @@ common & utilities css
     
 }
 .news_info{
-    display: flex;
     margin: 20px 0;
-    font-size: 12px;
+    font-size: 16px;
+    text-align: center;
 }
 .fa-solid{
     margin-right: 24px;
@@ -214,8 +232,11 @@ hr{
   .m_details{
     text-align: left;
   }
-  .m_details img{
-    width: 310px;
+  .flag{
+    padding-left: 20px;
+  }
+  .flag img{
+    width: 90px;
 }
 .m-btn{
     display: block;
@@ -232,6 +253,7 @@ hr{
 }
 .m_details h4{
     font-size: 12px;
+    text-align: center;
 }
 .news_info{
     font-size: 8px;
@@ -331,7 +353,7 @@ hr{
 .btn-1:hover, .btn-2:hover{
     border: 1px solid black;
 }
-.btn-3{
+.btn-1{
     background-color: #DD0000;
     color: aliceblue;
     
@@ -339,11 +361,12 @@ hr{
 .match_news{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+    row-gap: 25px;
     width: 610px;
+    column-gap: 18px;
 }
 .m_details img{
-    width: 292px;
+    width: 112px;
 }
 .m-btn{
     display: block;
